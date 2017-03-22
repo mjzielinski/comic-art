@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					E4DB10691E83247300EDF742 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S5K2NTHW4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -264,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S5K2NTHW4;
 				INFOPLIST_FILE = "Comic Art/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.worldengine.Comic-Art";
@@ -276,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S5K2NTHW4;
 				INFOPLIST_FILE = "Comic Art/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.worldengine.Comic-Art";
