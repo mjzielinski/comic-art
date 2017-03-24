@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4030BBB1E8444C900565BC3 /* ArtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4030BBA1E8444C900565BC3 /* ArtViewController.swift */; };
 		E4DB106E1E83247400EDF742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB106D1E83247400EDF742 /* AppDelegate.swift */; };
-		E4DB10701E83247400EDF742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB106F1E83247400EDF742 /* ViewController.swift */; };
+		E4DB10701E83247400EDF742 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DB106F1E83247400EDF742 /* MainViewController.swift */; };
 		E4DB10731E83247400EDF742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DB10711E83247400EDF742 /* Main.storyboard */; };
 		E4DB10761E83247400EDF742 /* Comic_Art.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4DB10741E83247400EDF742 /* Comic_Art.xcdatamodeld */; };
 		E4DB10781E83247400EDF742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DB10771E83247400EDF742 /* Assets.xcassets */; };
 		E4DB107B1E83247400EDF742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DB10791E83247400EDF742 /* LaunchScreen.storyboard */; };
+		E4DB10831E832DC000EDF742 /* sonic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4DB10821E832DC000EDF742 /* sonic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4030BBA1E8444C900565BC3 /* ArtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtViewController.swift; sourceTree = "<group>"; };
 		E4DB106A1E83247400EDF742 /* Comic Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comic Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DB106D1E83247400EDF742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4DB106F1E83247400EDF742 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4DB106F1E83247400EDF742 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E4DB10721E83247400EDF742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4DB10751E83247400EDF742 /* Comic_Art.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Comic_Art.xcdatamodel; sourceTree = "<group>"; };
 		E4DB10771E83247400EDF742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4DB107A1E83247400EDF742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4DB107C1E83247400EDF742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DB10821E832DC000EDF742 /* sonic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sonic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		E4DB106C1E83247400EDF742 /* Comic Art */ = {
 			isa = PBXGroup;
 			children = (
+				E4DB10821E832DC000EDF742 /* sonic.jpg */,
 				E4DB106D1E83247400EDF742 /* AppDelegate.swift */,
-				E4DB106F1E83247400EDF742 /* ViewController.swift */,
+				E4DB106F1E83247400EDF742 /* MainViewController.swift */,
 				E4DB10711E83247400EDF742 /* Main.storyboard */,
+				E4030BBA1E8444C900565BC3 /* ArtViewController.swift */,
 				E4DB10771E83247400EDF742 /* Assets.xcassets */,
 				E4DB10791E83247400EDF742 /* LaunchScreen.storyboard */,
 				E4DB107C1E83247400EDF742 /* Info.plist */,
@@ -127,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DB10831E832DC000EDF742 /* sonic.jpg in Resources */,
 				E4DB107B1E83247400EDF742 /* LaunchScreen.storyboard in Resources */,
 				E4DB10781E83247400EDF742 /* Assets.xcassets in Resources */,
 				E4DB10731E83247400EDF742 /* Main.storyboard in Resources */,
@@ -140,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DB10701E83247400EDF742 /* ViewController.swift in Sources */,
+				E4030BBB1E8444C900565BC3 /* ArtViewController.swift in Sources */,
+				E4DB10701E83247400EDF742 /* MainViewController.swift in Sources */,
 				E4DB106E1E83247400EDF742 /* AppDelegate.swift in Sources */,
 				E4DB10761E83247400EDF742 /* Comic_Art.xcdatamodeld in Sources */,
 			);
@@ -306,6 +314,7 @@
 				E4DB10811E83247400EDF742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
