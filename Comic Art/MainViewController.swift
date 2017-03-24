@@ -50,10 +50,22 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = UITableViewCell()
         
         let art = arts[indexPath.row]
+        cell.imageView?.image = UIImage(data: art.image as! Data)
         cell.textLabel?.text = art.title
         
         return cell
-        
+    }
+    
+    //* when someone clicks on one of the rows go to next screen and send Art object
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let art = arts[indexPath.row]
+        performSegue(withIdentifier: "artSegue", sender: art)
+    }
+    
+    //* sends the art to the next view controller
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! ArtViewController
+        nextVC.art = sender as? Art
     }
 
 
